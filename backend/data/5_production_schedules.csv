@@ -1,0 +1,4 @@
+schedule_id,asset_tag,planned_start,planned_end,production_target,downtime_cost_per_hour_inr
+PROD-WK40-A,BFP-01,2026-10-01,2026-10-05,High-Pressure Steam Generation,150000
+PROD-WK40-B,ST-01,2026-10-01,2026-10-07,Base Load Power Export (500MW),500000
+PROD-WK40-C,CC-01,2026-10-02,2026-10-03,Silo B Coal Replenishment,75000

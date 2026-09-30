@@ -1,0 +1,501 @@
+order_id,part_no,season,market_condition,promised_lead_time_days,actual_delivery_days
+ORD-1000,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,26
+ORD-1001,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,24
+ORD-1002,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,47
+ORD-1003,CWP-PRT-IMP-03,Winter,Normal,14,14
+ORD-1004,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,21
+ORD-1005,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,24
+ORD-1006,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,48
+ORD-1007,CC-PRT-BLT-01,Summer,Normal,14,16
+ORD-1008,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,17
+ORD-1009,ST-PRT-BLD-02,Winter,Normal,30,29
+ORD-1010,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,23
+ORD-1011,CWP-PRT-IMP-03,Monsoon,Normal,14,19
+ORD-1012,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,42
+ORD-1013,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,21
+ORD-1014,CWP-PRT-IMP-03,Winter,Normal,14,14
+ORD-1015,BFP-PRT-BRG-01,Monsoon,Normal,10,14
+ORD-1016,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,24
+ORD-1017,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,26
+ORD-1018,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,27
+ORD-1019,CWP-PRT-IMP-03,Winter,Normal,14,16
+ORD-1020,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,39
+ORD-1021,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,26
+ORD-1022,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,36
+ORD-1023,CC-PRT-BLT-01,Monsoon,Normal,14,19
+ORD-1024,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,46
+ORD-1025,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,28
+ORD-1026,ST-PRT-BLD-02,Summer,Normal,30,31
+ORD-1027,CWP-PRT-IMP-03,Summer,Normal,14,15
+ORD-1028,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,22
+ORD-1029,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,22
+ORD-1030,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,40
+ORD-1031,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,27
+ORD-1032,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,19
+ORD-1033,ST-PRT-BLD-02,Summer,Normal,30,31
+ORD-1034,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,26
+ORD-1035,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,15
+ORD-1036,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,19
+ORD-1037,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,39
+ORD-1038,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,31
+ORD-1039,BFP-PRT-BRG-01,Winter,Normal,10,12
+ORD-1040,BFP-PRT-BRG-01,Monsoon,Normal,10,16
+ORD-1041,ST-PRT-BLD-02,Summer,Normal,30,29
+ORD-1042,ST-PRT-BLD-02,Winter,Normal,30,28
+ORD-1043,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,29
+ORD-1044,BFP-PRT-BRG-01,Monsoon,Normal,10,15
+ORD-1045,CWP-PRT-IMP-03,Summer,Normal,14,12
+ORD-1046,CC-PRT-BLT-01,Winter,Normal,14,12
+ORD-1047,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,24
+ORD-1048,ST-PRT-BLD-02,Monsoon,Normal,30,36
+ORD-1049,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,19
+ORD-1050,ST-PRT-BLD-02,Monsoon,Normal,30,35
+ORD-1051,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,41
+ORD-1052,ST-PRT-BLD-02,Winter,Normal,30,29
+ORD-1053,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,28
+ORD-1054,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,30
+ORD-1055,CWP-PRT-IMP-03,Summer,Normal,14,13
+ORD-1056,CC-PRT-BLT-01,Winter,Normal,14,12
+ORD-1057,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,29
+ORD-1058,CWP-PRT-IMP-03,Winter,Normal,14,14
+ORD-1059,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,15
+ORD-1060,ST-PRT-BLD-02,Monsoon,Normal,30,37
+ORD-1061,BFP-PRT-BRG-01,Summer,Normal,10,10
+ORD-1062,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,41
+ORD-1063,CWP-PRT-IMP-03,Summer,Normal,14,14
+ORD-1064,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,46
+ORD-1065,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,25
+ORD-1066,BFP-PRT-BRG-01,Summer,Normal,10,11
+ORD-1067,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,24
+ORD-1068,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,43
+ORD-1069,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,40
+ORD-1070,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,27
+ORD-1071,CWP-PRT-IMP-03,Monsoon,Normal,14,17
+ORD-1072,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,45
+ORD-1073,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,41
+ORD-1074,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,24
+ORD-1075,CWP-PRT-IMP-03,Summer,Normal,14,13
+ORD-1076,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,26
+ORD-1077,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,25
+ORD-1078,BFP-PRT-BRG-01,Summer,Normal,10,8
+ORD-1079,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,43
+ORD-1080,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,23
+ORD-1081,CWP-PRT-IMP-03,Monsoon,Normal,14,17
+ORD-1082,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,41
+ORD-1083,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,45
+ORD-1084,ST-PRT-BLD-02,Summer,Normal,30,28
+ORD-1085,CC-PRT-BLT-01,Winter,Normal,14,14
+ORD-1086,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,46
+ORD-1087,BFP-PRT-BRG-01,Monsoon,Normal,10,14
+ORD-1088,CWP-PRT-IMP-03,Summer,Normal,14,12
+ORD-1089,CC-PRT-BLT-01,Monsoon,Normal,14,16
+ORD-1090,BFP-PRT-BRG-01,Winter,Normal,10,11
+ORD-1091,ST-PRT-BLD-02,Summer,Normal,30,31
+ORD-1092,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,24
+ORD-1093,BFP-PRT-BRG-01,Winter,Normal,10,10
+ORD-1094,CC-PRT-BLT-01,Summer,Normal,14,12
+ORD-1095,BFP-PRT-BRG-01,Monsoon,Normal,10,15
+ORD-1096,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,20
+ORD-1097,ST-PRT-BLD-02,Summer,Normal,30,30
+ORD-1098,BFP-PRT-BRG-01,Monsoon,Normal,10,12
+ORD-1099,BFP-PRT-BRG-01,Monsoon,Normal,10,15
+ORD-1100,CC-PRT-BLT-01,Monsoon,Normal,14,19
+ORD-1101,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,19
+ORD-1102,BFP-PRT-BRG-01,Summer,Normal,10,9
+ORD-1103,BFP-PRT-BRG-01,Summer,Normal,10,12
+ORD-1104,CWP-PRT-IMP-03,Summer,Normal,14,15
+ORD-1105,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,45
+ORD-1106,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,25
+ORD-1107,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,22
+ORD-1108,ST-PRT-BLD-02,Winter,Normal,30,28
+ORD-1109,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,26
+ORD-1110,CWP-PRT-IMP-03,Summer,Normal,14,15
+ORD-1111,ST-PRT-BLD-02,Monsoon,Normal,30,34
+ORD-1112,BFP-PRT-BRG-01,Monsoon,Normal,10,11
+ORD-1113,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,26
+ORD-1114,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,24
+ORD-1115,BFP-PRT-BRG-01,Winter,Normal,10,10
+ORD-1116,CWP-PRT-IMP-03,Monsoon,Normal,14,20
+ORD-1117,CC-PRT-BLT-01,Winter,Normal,14,13
+ORD-1118,CWP-PRT-IMP-03,Winter,Normal,14,14
+ORD-1119,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,38
+ORD-1120,BFP-PRT-BRG-01,Monsoon,Normal,10,14
+ORD-1121,BFP-PRT-BRG-01,Winter,Normal,10,8
+ORD-1122,ST-PRT-BLD-02,Winter,Normal,30,29
+ORD-1123,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,28
+ORD-1124,CC-PRT-BLT-01,Summer,Normal,14,13
+ORD-1125,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,26
+ORD-1126,CC-PRT-BLT-01,Monsoon,Normal,14,16
+ORD-1127,BFP-PRT-BRG-01,Monsoon,Normal,10,17
+ORD-1128,BFP-PRT-BRG-01,Summer,Normal,10,8
+ORD-1129,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,34
+ORD-1130,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,27
+ORD-1131,CC-PRT-BLT-01,Summer,Normal,14,14
+ORD-1132,CC-PRT-BLT-01,Summer,Normal,14,12
+ORD-1133,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,20
+ORD-1134,ST-PRT-BLD-02,Monsoon,Normal,30,36
+ORD-1135,BFP-PRT-BRG-01,Summer,Normal,10,8
+ORD-1136,ST-PRT-BLD-02,Monsoon,Normal,30,36
+ORD-1137,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,20
+ORD-1138,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,25
+ORD-1139,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,28
+ORD-1140,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,22
+ORD-1141,CWP-PRT-IMP-03,Monsoon,Normal,14,18
+ORD-1142,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,44
+ORD-1143,CWP-PRT-IMP-03,Winter,Normal,14,12
+ORD-1144,ST-PRT-BLD-02,Monsoon,Normal,30,34
+ORD-1145,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,20
+ORD-1146,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,26
+ORD-1147,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,19
+ORD-1148,CC-PRT-BLT-01,Summer,Normal,14,14
+ORD-1149,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,27
+ORD-1150,CWP-PRT-IMP-03,Summer,Normal,14,14
+ORD-1151,ST-PRT-BLD-02,Winter,Normal,30,30
+ORD-1152,BFP-PRT-BRG-01,Winter,Normal,10,10
+ORD-1153,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,22
+ORD-1154,BFP-PRT-BRG-01,Winter,Normal,10,8
+ORD-1155,CWP-PRT-IMP-03,Monsoon,Normal,14,18
+ORD-1156,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,45
+ORD-1157,CWP-PRT-IMP-03,Summer,Normal,14,14
+ORD-1158,BFP-PRT-BRG-01,Summer,Normal,10,8
+ORD-1159,BFP-PRT-BRG-01,Monsoon,Normal,10,14
+ORD-1160,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,29
+ORD-1161,CC-PRT-BLT-01,Summer,Normal,14,15
+ORD-1162,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,25
+ORD-1163,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,44
+ORD-1164,CWP-PRT-IMP-03,Summer,Normal,14,12
+ORD-1165,CWP-PRT-IMP-03,Winter,Normal,14,16
+ORD-1166,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,38
+ORD-1167,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,36
+ORD-1168,ST-PRT-BLD-02,Monsoon,Normal,30,39
+ORD-1169,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,23
+ORD-1170,ST-PRT-BLD-02,Winter,Normal,30,30
+ORD-1171,ST-PRT-BLD-02,Monsoon,Normal,30,32
+ORD-1172,ST-PRT-BLD-02,Summer,Normal,30,29
+ORD-1173,BFP-PRT-BRG-01,Winter,Normal,10,9
+ORD-1174,CC-PRT-BLT-01,Summer,Normal,14,14
+ORD-1175,BFP-PRT-BRG-01,Winter,Normal,10,9
+ORD-1176,CWP-PRT-IMP-03,Winter,Normal,14,13
+ORD-1177,CC-PRT-BLT-01,Summer,Normal,14,14
+ORD-1178,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,27
+ORD-1179,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,22
+ORD-1180,ST-PRT-BLD-02,Summer,Normal,30,28
+ORD-1181,CC-PRT-BLT-01,Summer,Normal,14,12
+ORD-1182,BFP-PRT-BRG-01,Winter,Normal,10,10
+ORD-1183,ST-PRT-BLD-02,Summer,Normal,30,32
+ORD-1184,CWP-PRT-IMP-03,Summer,Normal,14,13
+ORD-1185,CC-PRT-BLT-01,Monsoon,Normal,14,18
+ORD-1186,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,33
+ORD-1187,ST-PRT-BLD-02,Winter,Normal,30,31
+ORD-1188,ST-PRT-BLD-02,Monsoon,Normal,30,32
+ORD-1189,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,20
+ORD-1190,CC-PRT-BLT-01,Monsoon,Normal,14,18
+ORD-1191,ST-PRT-BLD-02,Winter,Normal,30,31
+ORD-1192,CWP-PRT-IMP-03,Summer,Normal,14,14
+ORD-1193,BFP-PRT-BRG-01,Summer,Normal,10,11
+ORD-1194,BFP-PRT-BRG-01,Monsoon,Normal,10,13
+ORD-1195,CWP-PRT-IMP-03,Winter,Normal,14,14
+ORD-1196,CWP-PRT-IMP-03,Summer,Normal,14,12
+ORD-1197,CWP-PRT-IMP-03,Monsoon,Normal,14,20
+ORD-1198,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,19
+ORD-1199,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,22
+ORD-1200,CWP-PRT-IMP-03,Summer,Normal,14,15
+ORD-1201,ST-PRT-BLD-02,Winter,Normal,30,29
+ORD-1202,CWP-PRT-IMP-03,Winter,Normal,14,14
+ORD-1203,CWP-PRT-IMP-03,Winter,Normal,14,15
+ORD-1204,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,37
+ORD-1205,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,28
+ORD-1206,BFP-PRT-BRG-01,Summer,Normal,10,11
+ORD-1207,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,24
+ORD-1208,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,26
+ORD-1209,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,38
+ORD-1210,ST-PRT-BLD-02,Summer,Normal,30,31
+ORD-1211,CWP-PRT-IMP-03,Monsoon,Normal,14,20
+ORD-1212,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,28
+ORD-1213,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,19
+ORD-1214,ST-PRT-BLD-02,Monsoon,Normal,30,35
+ORD-1215,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,22
+ORD-1216,CC-PRT-BLT-01,Winter,Normal,14,16
+ORD-1217,CC-PRT-BLT-01,Monsoon,Normal,14,18
+ORD-1218,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,25
+ORD-1219,ST-PRT-BLD-02,Winter,Normal,30,29
+ORD-1220,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,14
+ORD-1221,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,22
+ORD-1222,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,44
+ORD-1223,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,27
+ORD-1224,CC-PRT-BLT-01,Monsoon,Normal,14,21
+ORD-1225,BFP-PRT-BRG-01,Winter,Normal,10,11
+ORD-1226,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,44
+ORD-1227,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,45
+ORD-1228,ST-PRT-BLD-02,Summer,Normal,30,32
+ORD-1229,CC-PRT-BLT-01,Winter,Normal,14,15
+ORD-1230,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,43
+ORD-1231,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,24
+ORD-1232,CC-PRT-BLT-01,Winter,Normal,14,13
+ORD-1233,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,26
+ORD-1234,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,27
+ORD-1235,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,30
+ORD-1236,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,21
+ORD-1237,BFP-PRT-BRG-01,Winter,Normal,10,11
+ORD-1238,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,27
+ORD-1239,CC-PRT-BLT-01,Monsoon,Normal,14,18
+ORD-1240,ST-PRT-BLD-02,Winter,Normal,30,28
+ORD-1241,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,28
+ORD-1242,CC-PRT-BLT-01,Winter,Normal,14,16
+ORD-1243,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,47
+ORD-1244,CWP-PRT-IMP-03,Monsoon,Normal,14,18
+ORD-1245,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,19
+ORD-1246,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,26
+ORD-1247,ST-PRT-BLD-02,Monsoon,Normal,30,31
+ORD-1248,CC-PRT-BLT-01,Winter,Normal,14,16
+ORD-1249,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,17
+ORD-1250,CC-PRT-BLT-01,Winter,Normal,14,16
+ORD-1251,CC-PRT-BLT-01,Summer,Normal,14,15
+ORD-1252,CWP-PRT-IMP-03,Monsoon,Normal,14,17
+ORD-1253,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,14
+ORD-1254,CC-PRT-BLT-01,Monsoon,Normal,14,20
+ORD-1255,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,38
+ORD-1256,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,25
+ORD-1257,ST-PRT-BLD-02,Summer,Normal,30,28
+ORD-1258,CWP-PRT-IMP-03,Monsoon,Normal,14,20
+ORD-1259,CWP-PRT-IMP-03,Monsoon,Normal,14,17
+ORD-1260,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,43
+ORD-1261,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,49
+ORD-1262,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,46
+ORD-1263,CC-PRT-BLT-01,Summer,Normal,14,13
+ORD-1264,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,23
+ORD-1265,BFP-PRT-BRG-01,Monsoon,Normal,10,15
+ORD-1266,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,28
+ORD-1267,CWP-PRT-IMP-03,Winter,Normal,14,13
+ORD-1268,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,30
+ORD-1269,ST-PRT-BLD-02,Summer,Normal,30,28
+ORD-1270,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,22
+ORD-1271,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,41
+ORD-1272,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,17
+ORD-1273,BFP-PRT-BRG-01,Summer,Normal,10,8
+ORD-1274,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,19
+ORD-1275,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,17
+ORD-1276,ST-PRT-BLD-02,Monsoon,Normal,30,34
+ORD-1277,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,42
+ORD-1278,CC-PRT-BLT-01,Monsoon,Normal,14,21
+ORD-1279,CWP-PRT-IMP-03,Monsoon,Normal,14,19
+ORD-1280,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,33
+ORD-1281,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,22
+ORD-1282,ST-PRT-BLD-02,Winter,Normal,30,29
+ORD-1283,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,21
+ORD-1284,BFP-PRT-BRG-01,Summer,Normal,10,10
+ORD-1285,CC-PRT-BLT-01,Summer,Normal,14,15
+ORD-1286,CC-PRT-BLT-01,Monsoon,Normal,14,18
+ORD-1287,BFP-PRT-BRG-01,Monsoon,Normal,10,17
+ORD-1288,BFP-PRT-BRG-01,Winter,Normal,10,11
+ORD-1289,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,21
+ORD-1290,CC-PRT-BLT-01,Summer,Normal,14,16
+ORD-1291,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,22
+ORD-1292,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,43
+ORD-1293,BFP-PRT-BRG-01,Monsoon,Normal,10,17
+ORD-1294,BFP-PRT-BRG-01,Summer,Normal,10,12
+ORD-1295,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,21
+ORD-1296,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,22
+ORD-1297,ST-PRT-BLD-02,Summer,Normal,30,29
+ORD-1298,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,21
+ORD-1299,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,22
+ORD-1300,CWP-PRT-IMP-03,Summer,Normal,14,13
+ORD-1301,CWP-PRT-IMP-03,Winter,Normal,14,12
+ORD-1302,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,16
+ORD-1303,CWP-PRT-IMP-03,Monsoon,Normal,14,17
+ORD-1304,BFP-PRT-BRG-01,Monsoon,Normal,10,19
+ORD-1305,CWP-PRT-IMP-03,Winter,Normal,14,16
+ORD-1306,ST-PRT-BLD-02,Summer,Normal,30,30
+ORD-1307,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,28
+ORD-1308,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,20
+ORD-1309,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,33
+ORD-1310,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,30
+ORD-1311,BFP-PRT-BRG-01,Monsoon,Normal,10,16
+ORD-1312,CC-PRT-BLT-01,Monsoon,Normal,14,22
+ORD-1313,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,24
+ORD-1314,CWP-PRT-IMP-03,Winter,Normal,14,13
+ORD-1315,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,28
+ORD-1316,BFP-PRT-BRG-01,Monsoon,Normal,10,17
+ORD-1317,ST-PRT-BLD-02,Winter,Normal,30,32
+ORD-1318,BFP-PRT-BRG-01,Summer,Normal,10,9
+ORD-1319,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,51
+ORD-1320,CWP-PRT-IMP-03,Monsoon,Normal,14,22
+ORD-1321,ST-PRT-BLD-02,Summer,Normal,30,28
+ORD-1322,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,23
+ORD-1323,CC-PRT-BLT-01,Summer,Normal,14,14
+ORD-1324,CC-PRT-BLT-01,Summer,Normal,14,16
+ORD-1325,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,28
+ORD-1326,BFP-PRT-BRG-01,Monsoon,Normal,10,11
+ORD-1327,BFP-PRT-BRG-01,Summer,Normal,10,8
+ORD-1328,ST-PRT-BLD-02,Summer,Normal,30,32
+ORD-1329,CC-PRT-BLT-01,Summer,Normal,14,13
+ORD-1330,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,31
+ORD-1331,CC-PRT-BLT-01,Summer,Normal,14,14
+ORD-1332,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,20
+ORD-1333,BFP-PRT-BRG-01,Monsoon,Normal,10,15
+ORD-1334,CC-PRT-BLT-01,Monsoon,Normal,14,18
+ORD-1335,ST-PRT-BLD-02,Summer,Normal,30,29
+ORD-1336,CC-PRT-BLT-01,Summer,Normal,14,12
+ORD-1337,CWP-PRT-IMP-03,Summer,Normal,14,12
+ORD-1338,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,22
+ORD-1339,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,19
+ORD-1340,BFP-PRT-BRG-01,Monsoon,Normal,10,16
+ORD-1341,BFP-PRT-BRG-01,Monsoon,Normal,10,15
+ORD-1342,CWP-PRT-IMP-03,Winter,Normal,14,15
+ORD-1343,ST-PRT-BLD-02,Summer,Normal,30,32
+ORD-1344,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,25
+ORD-1345,BFP-PRT-BRG-01,Summer,Normal,10,9
+ORD-1346,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,21
+ORD-1347,CWP-PRT-IMP-03,Monsoon,Normal,14,22
+ORD-1348,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,24
+ORD-1349,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,22
+ORD-1350,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,24
+ORD-1351,ST-PRT-BLD-02,Summer,Normal,30,31
+ORD-1352,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,19
+ORD-1353,ST-PRT-BLD-02,Winter,Normal,30,29
+ORD-1354,ST-PRT-BLD-02,Winter,Normal,30,30
+ORD-1355,CC-PRT-BLT-01,Monsoon,Normal,14,19
+ORD-1356,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,19
+ORD-1357,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,25
+ORD-1358,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,18
+ORD-1359,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,18
+ORD-1360,CWP-PRT-IMP-03,Summer,Normal,14,14
+ORD-1361,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,49
+ORD-1362,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,22
+ORD-1363,ST-PRT-BLD-02,Summer,Normal,30,28
+ORD-1364,CWP-PRT-IMP-03,Summer,Normal,14,13
+ORD-1365,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,43
+ORD-1366,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,27
+ORD-1367,CC-PRT-BLT-01,Monsoon,Normal,14,19
+ORD-1368,CWP-PRT-IMP-03,Monsoon,Normal,14,21
+ORD-1369,CC-PRT-BLT-01,Monsoon,Normal,14,23
+ORD-1370,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,21
+ORD-1371,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,48
+ORD-1372,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,21
+ORD-1373,CC-PRT-BLT-01,Monsoon,Normal,14,15
+ORD-1374,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,19
+ORD-1375,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,20
+ORD-1376,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,18
+ORD-1377,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,25
+ORD-1378,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,40
+ORD-1379,BFP-PRT-BRG-01,Monsoon,Normal,10,14
+ORD-1380,CWP-PRT-IMP-03,Summer,Normal,14,15
+ORD-1381,CWP-PRT-IMP-03,Winter,Normal,14,12
+ORD-1382,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,25
+ORD-1383,ST-PRT-BLD-02,Winter,Normal,30,32
+ORD-1384,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,21
+ORD-1385,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,45
+ORD-1386,ST-PRT-BLD-02,Monsoon,Normal,30,35
+ORD-1387,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,26
+ORD-1388,ST-PRT-BLD-02,Monsoon,Normal,30,33
+ORD-1389,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,40
+ORD-1390,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,20
+ORD-1391,ST-PRT-BLD-02,Monsoon,Normal,30,34
+ORD-1392,CC-PRT-BLT-01,Winter,Normal,14,12
+ORD-1393,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,30
+ORD-1394,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,19
+ORD-1395,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,25
+ORD-1396,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,21
+ORD-1397,BFP-PRT-BRG-01,Summer,Normal,10,8
+ORD-1398,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,26
+ORD-1399,BFP-PRT-BRG-01,Winter,Normal,10,11
+ORD-1400,CWP-PRT-IMP-03,Winter,Normal,14,15
+ORD-1401,BFP-PRT-BRG-01,Summer,Normal,10,12
+ORD-1402,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,38
+ORD-1403,ST-PRT-BLD-02,Winter,Normal,30,29
+ORD-1404,BFP-PRT-BRG-01,Winter,Normal,10,12
+ORD-1405,BFP-PRT-BRG-01,Monsoon,Normal,10,15
+ORD-1406,ST-PRT-BLD-02,Winter,Normal,30,30
+ORD-1407,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,15
+ORD-1408,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,25
+ORD-1409,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,41
+ORD-1410,ST-PRT-BLD-02,Monsoon,Normal,30,34
+ORD-1411,CWP-PRT-IMP-03,Summer,Normal,14,14
+ORD-1412,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,37
+ORD-1413,CWP-PRT-IMP-03,Monsoon,Normal,14,20
+ORD-1414,CC-PRT-BLT-01,Monsoon,Normal,14,20
+ORD-1415,ST-PRT-BLD-02,Winter,High Demand (Shortage),30,37
+ORD-1416,CC-PRT-BLT-01,Summer,Normal,14,16
+ORD-1417,BFP-PRT-BRG-01,Monsoon,Normal,10,16
+ORD-1418,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,46
+ORD-1419,BFP-PRT-BRG-01,Winter,Normal,10,12
+ORD-1420,CC-PRT-BLT-01,Monsoon,Normal,14,19
+ORD-1421,CWP-PRT-IMP-03,Winter,Normal,14,12
+ORD-1422,ST-PRT-BLD-02,Monsoon,Normal,30,35
+ORD-1423,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,34
+ORD-1424,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,26
+ORD-1425,BFP-PRT-BRG-01,Summer,Normal,10,10
+ORD-1426,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,26
+ORD-1427,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,30
+ORD-1428,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,18
+ORD-1429,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,20
+ORD-1430,CC-PRT-BLT-01,Summer,Normal,14,12
+ORD-1431,CC-PRT-BLT-01,Summer,Normal,14,14
+ORD-1432,CWP-PRT-IMP-03,Summer,Normal,14,16
+ORD-1433,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,37
+ORD-1434,ST-PRT-BLD-02,Monsoon,Normal,30,35
+ORD-1435,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,24
+ORD-1436,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,42
+ORD-1437,CWP-PRT-IMP-03,Winter,Normal,14,14
+ORD-1438,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,25
+ORD-1439,BFP-PRT-BRG-01,Winter,Normal,10,11
+ORD-1440,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,19
+ORD-1441,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,20
+ORD-1442,CC-PRT-BLT-01,Monsoon,Normal,14,17
+ORD-1443,BFP-PRT-BRG-01,Summer,Normal,10,12
+ORD-1444,BFP-PRT-BRG-01,Monsoon,Normal,10,15
+ORD-1445,CC-PRT-BLT-01,Summer,Normal,14,12
+ORD-1446,BFP-PRT-BRG-01,Summer,Normal,10,8
+ORD-1447,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,24
+ORD-1448,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,21
+ORD-1449,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,16
+ORD-1450,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,37
+ORD-1451,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,30
+ORD-1452,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,17
+ORD-1453,ST-PRT-BLD-02,Summer,Normal,30,29
+ORD-1454,ST-PRT-BLD-02,Winter,Normal,30,28
+ORD-1455,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,20
+ORD-1456,CC-PRT-BLT-01,Winter,Normal,14,12
+ORD-1457,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,40
+ORD-1458,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,23
+ORD-1459,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,26
+ORD-1460,CC-PRT-BLT-01,Winter,Normal,14,16
+ORD-1461,ST-PRT-BLD-02,Winter,Normal,30,32
+ORD-1462,ST-PRT-BLD-02,Summer,High Demand (Shortage),30,41
+ORD-1463,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,25
+ORD-1464,CWP-PRT-IMP-03,Summer,High Demand (Shortage),14,25
+ORD-1465,BFP-PRT-BRG-01,Winter,Normal,10,10
+ORD-1466,CC-PRT-BLT-01,Winter,Normal,14,12
+ORD-1467,BFP-PRT-BRG-01,Summer,Normal,10,10
+ORD-1468,ST-PRT-BLD-02,Monsoon,Normal,30,37
+ORD-1469,CWP-PRT-IMP-03,Winter,Normal,14,15
+ORD-1470,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,21
+ORD-1471,BFP-PRT-BRG-01,Winter,High Demand (Shortage),10,19
+ORD-1472,BFP-PRT-BRG-01,Monsoon,High Demand (Shortage),10,21
+ORD-1473,ST-PRT-BLD-02,Winter,Normal,30,30
+ORD-1474,CWP-PRT-IMP-03,Summer,Normal,14,12
+ORD-1475,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,20
+ORD-1476,CWP-PRT-IMP-03,Summer,Normal,14,13
+ORD-1477,CC-PRT-BLT-01,Winter,High Demand (Shortage),14,23
+ORD-1478,ST-PRT-BLD-02,Monsoon,Normal,30,38
+ORD-1479,BFP-PRT-BRG-01,Summer,Normal,10,9
+ORD-1480,BFP-PRT-BRG-01,Summer,Normal,10,11
+ORD-1481,BFP-PRT-BRG-01,Winter,Normal,10,10
+ORD-1482,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,26
+ORD-1483,CWP-PRT-IMP-03,Winter,Normal,14,12
+ORD-1484,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,24
+ORD-1485,CWP-PRT-IMP-03,Summer,Normal,14,16
+ORD-1486,ST-PRT-BLD-02,Monsoon,Normal,30,36
+ORD-1487,CWP-PRT-IMP-03,Monsoon,Normal,14,21
+ORD-1488,CWP-PRT-IMP-03,Winter,High Demand (Shortage),14,19
+ORD-1489,CC-PRT-BLT-01,Monsoon,High Demand (Shortage),14,29
+ORD-1490,BFP-PRT-BRG-01,Summer,High Demand (Shortage),10,18
+ORD-1491,CC-PRT-BLT-01,Monsoon,Normal,14,19
+ORD-1492,ST-PRT-BLD-02,Monsoon,Normal,30,36
+ORD-1493,CWP-PRT-IMP-03,Monsoon,High Demand (Shortage),14,27
+ORD-1494,ST-PRT-BLD-02,Summer,Normal,30,28
+ORD-1495,CC-PRT-BLT-01,Summer,High Demand (Shortage),14,17
+ORD-1496,CWP-PRT-IMP-03,Monsoon,Normal,14,19
+ORD-1497,BFP-PRT-BRG-01,Monsoon,Normal,10,15
+ORD-1498,ST-PRT-BLD-02,Monsoon,High Demand (Shortage),30,44
+ORD-1499,ST-PRT-BLD-02,Winter,Normal,30,30

@@ -1,0 +1,6 @@
+log_id,asset_tag,timestamp,technician_notes,maintenance_type
+WO-2026-TPP-101,BFP-01,2026-09-28,Boiler feedwater pump discharge pressure dropped significantly to 65 bar. Slight fluid weeping near mechanical seal housing.,Unscheduled Inspection
+WO-2026-TPP-102,ST-01,2026-09-26,Steam turbine bearing housing vibrating heavily above 9 mm/s. Bearing temperature reaching 95C. Blade wear or rotor imbalance suspected.,Emergency Callout
+WO-2026-TPP-103,GEN-01,2026-09-24,Exciter voltage fluctuating. Stator winding temperature stable but hydrogen seal pressure reading low.,Preventive Maintenance
+WO-2026-TPP-104,CWP-01,2026-09-29,Cooling water flow rate dropped slightly. Cavitation noises heard in the impeller housing.,Routine Check
+WO-2026-TPP-105,CC-01,2026-09-27,Coal conveyor belt showing severe edge fraying and tension loss. Drive motor current drawing 220A under normal load.,Unscheduled Inspection

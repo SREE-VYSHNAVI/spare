@@ -1,0 +1,26 @@
+part_no,part_name,current_stock,vendor_lead_time_days,operational_criticality,unit_cost_inr
+BFP-PRT-BRG-01,Pump Thrust Bearing,1,10,CRITICAL_HIGH,45000
+BFP-PRT-SEAL-02,High-Pressure Mechanical Seal,0,6,CRITICAL_HIGH,12000
+BFP-PRT-IMP-03,Stainless Steel Impeller,1,20,CRITICAL_HIGH,180000
+BFP-PRT-GSK-04,High-Temp Flange Gasket,5,3,CRITICAL_MEDIUM,2500
+BFP-PRT-CPL-05,Flexible Motor Coupling,2,7,CRITICAL_MEDIUM,15000
+ST-PRT-BRG-01,Turbine Journal Bearing,0,15,CRITICAL_HIGH,250000
+ST-PRT-BLD-02,Rotor Blade Segment,1,30,CRITICAL_HIGH,500000
+ST-PRT-VLV-03,Steam Throttle Valve Actuator,1,12,CRITICAL_HIGH,95000
+ST-PRT-GSK-04,High-Pressure Steam Gasket Set,3,4,CRITICAL_MEDIUM,8000
+ST-PRT-CPL-05,Turbine Gear Coupling,2,10,CRITICAL_HIGH,110000
+GEN-PRT-BRG-01,Generator Sleeve Bearing,1,14,CRITICAL_HIGH,180000
+GEN-PRT-FAN-02,Stator Cooling Fan Blade,2,8,CRITICAL_MEDIUM,35000
+GEN-PRT-EXC-03,Brushless Exciter Component,0,18,CRITICAL_HIGH,140000
+GEN-PRT-SEL-04,Hydrogen Seal Ring,2,9,CRITICAL_HIGH,28000
+GEN-PRT-CBK-05,Vacuum Circuit Breaker Unit,1,21,CRITICAL_HIGH,320000
+CWP-PRT-BRG-01,Pump Roller Bearing,2,7,CRITICAL_MEDIUM,22000
+CWP-PRT-SEAL-02,Water Pump Mechanical Seal,1,5,CRITICAL_MEDIUM,9500
+CWP-PRT-IMP-03,Cooling Water Impeller,0,14,CRITICAL_HIGH,75000
+CWP-PRT-SFT-04,Stainless Drive Shaft,1,12,CRITICAL_HIGH,60000
+CWP-PRT-CPL-05,Pump Rubber Coupling,4,3,CRITICAL_MEDIUM,4500
+CC-PRT-BLT-01,Steel-Cord Conveyor Belt (100m),0,8,CRITICAL_HIGH,125000
+CC-PRT-BRG-02,Pulley Pillow Block Bearing,3,5,CRITICAL_MEDIUM,16000
+CC-PRT-RLR-03,Heavy Duty Carrying Idler Roller,10,3,CRITICAL_MEDIUM,3500
+CC-PRT-MTR-04,110kW Drive Motor,1,16,CRITICAL_HIGH,210000
+CC-PRT-GBX-05,Helical Speed Gearbox,0,20,CRITICAL_HIGH,280000
