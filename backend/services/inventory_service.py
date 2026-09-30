@@ -1,60 +1,72 @@
-import os
 import pandas as pd
+import os
+import json
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(BASE_DIR, "data")
+# Load CSV data files
+TELEMETRY_FILE = 'backend/data/telemetry.csv' if os.path.exists('backend/data/telemetry.csv') else '../1_telemetry_data.csv'
+BOM_FILE = 'backend/data/bom.csv' if os.path.exists('backend/data/bom.csv') else '../2_bom_mapping.csv'
+INVENTORY_FILE = 'backend/data/inventory.csv' if os.path.exists('backend/data/inventory.csv') else '../3_inventory_master.csv'
+LOGS_FILE = 'backend/data/logs.csv' if os.path.exists('backend/data/logs.csv') else '../4_maintenance_logs.csv'
 
-def load_csv(filename):
-    path = os.path.join(DATA_DIR, filename)
-    if os.path.exists(path):
-        return pd.read_csv(path)
-    return pd.DataFrame()
+def load_inventory_data():
+    """Load inventory master data"""
+    try:
+        df = pd.read_csv(INVENTORY_FILE)
+        return df.to_dict('records')
+    except:
+        # Return mock data if files don't exist
+        return [
+            {'part_no': 'BFP-PRT-BRG-01', 'part_name': 'Pump Thrust Bearing', 'current_stock': 1, 'vendor_lead_time_days': 10, 'operational_criticality': 'CRITICAL_HIGH', 'unit_cost_inr': 45000},
+            {'part_no': 'ST-PRT-BRG-01', 'part_name': 'Turbine Journal Bearing', 'current_stock': 0, 'vendor_lead_time_days': 15, 'operational_criticality': 'CRITICAL_HIGH', 'unit_cost_inr': 250000},
+            {'part_no': 'CWP-PRT-IMP-03', 'part_name': 'Cooling Water Impeller', 'current_stock': 0, 'vendor_lead_time_days': 14, 'operational_criticality': 'CRITICAL_HIGH', 'unit_cost_inr': 75000},
+            {'part_no': 'CC-PRT-BLT-01', 'part_name': 'Steel-Cord Conveyor Belt', 'current_stock': 0, 'vendor_lead_time_days': 8, 'operational_criticality': 'CRITICAL_HIGH', 'unit_cost_inr': 12500},
+            {'part_no': 'GEN-PRT-FAN-02', 'part_name': 'Stator Cooling Fan Blade', 'current_stock': 2, 'vendor_lead_time_days': 8, 'operational_criticality': 'CRITICAL_MEDIUM', 'unit_cost_inr': 35000},
+            {'part_no': 'BFP-PRT-SEAL-02', 'part_name': 'High-Pressure Mechanical Seal', 'current_stock': 0, 'vendor_lead_time_days': 6, 'operational_criticality': 'CRITICAL_HIGH', 'unit_cost_inr': 12000},
+        ]
 
-def get_executive_summary():
-    inventory_df = load_csv("3_inventory_master.csv")
-    telemetry_df = load_csv("1_telemetry_data.csv")
+def load_bom_data():
+    """Load Bill of Materials data"""
+    try:
+        df = pd.read_csv(BOM_FILE)
+        return df.to_dict('records')
+    except:
+        return []
+
+def get_executive_summary() -> dict:
+    """
+    Generate executive summary dashboard metrics
+    """
+    inventory = load_inventory_data()
     
-    total_assets = 5 # Thermal Power Plant core assets (BFP-01, ST-01, etc.)
-    high_risk_count = 2 # Derived or static count from mock checks
+    total_parts = len(inventory)
+    critical_stock_out = sum(1 for item in inventory if item['current_stock'] == 0)
+    total_in_stock = sum(item.get('current_stock', 0) for item in inventory)
+    avg_lead_time = sum(item.get('vendor_lead_time_days', 0) for item in inventory) / max(len(inventory), 1)
     
-    critical_shortages = 0
-    if not inventory_df.empty and 'shortage_risk_score' in inventory_df.columns:
-        critical_shortages = int((inventory_df['shortage_risk_score'] > 80).sum())
-        
     return {
-        "assets_monitored": total_assets,
-        "high_risk_assets": high_risk_count,
-        "critical_spare_shortages": critical_shortages if critical_shortages > 0 else 1,
-        "expected_spare_demand_30d": 1284,
-        "estimated_downtime_risk_inr": "750,000 INR"
+        "total_assets": 5,  # 5 thermal power plant assets
+        "total_parts_managed": total_parts,
+        "critical_alerts": critical_stock_out,
+        "parts_in_stock": total_in_stock,
+        "avg_lead_time": round(avg_lead_time, 1),
+        "system_status": "Operational"
     }
 
-def get_inventory_status():
-    df = load_csv("3_inventory_master.csv")
-    if df.empty:
-        # Fallback dummy row if CSV isn't populated yet
-        return [{
-            "part_id": "BFP-PRT-SEAL-02",
-            "part_name": "High-Pressure Mechanical Seal",
-            "current_stock": 0,
-            "expected_demand": 3,
-            "lead_time_days": 6,
-            "shortage_risk": "CRITICAL",
-            "recommendation": "ORDER NOW"
-        }]
-    return df.to_dict(orient="records")
+def get_inventory_status() -> list:
+    """
+    Get current inventory status with all spare parts
+    """
+    return load_inventory_data()
 
-def get_bom_mapping_details(asset_id: str):
-    bom_df = load_csv("2_bom_mapping.csv")
-    if not bom_df.empty and 'asset_id' in bom_df.columns:
-        match = bom_df[bom_df['asset_id'] == asset_id]
-        if not match.empty:
-            return match.to_dict(orient="records")
-    # Default fallback mapping matching our scenario
-    return [{
+def get_bom_mapping_details(asset_id: str) -> dict:
+    """
+    Get Bill of Materials mapping for a specific asset
+    """
+    bom = load_bom_data()
+    asset_bom = [item for item in bom if item.get('asset_tag') == asset_id]
+    
+    return {
         "asset_id": asset_id,
-        "component": "Spindle Seal",
-        "failure_mode": "Seal leakage",
-        "spare_part_id": "BFP-PRT-SEAL-02",
-        "association_confidence": "92%"
-    }]
+        "bom_items": asset_bom,
+        "total_parts": len(asset_bom)
+    }
