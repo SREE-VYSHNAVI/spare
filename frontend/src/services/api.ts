@@ -1,28 +1,21 @@
-import axios from 'axios';
+import axios from 'axios'
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
 
-export const fetchDashboardSummary = async () => {
-    const response = await axios.get(`${API_BASE_URL}/dashboard`);
-    return response.data;
-};
+export const api = axios.create({
+  baseURL: API_BASE_URL,
+  headers: { 'Content-Type': 'application/json' },
+})
 
-export const fetchInventoryStatus = async () => {
-    const response = await axios.get(`${API_BASE_URL}/inventory`);
-    return response.data;
-};
-
-export const sendAIChatQuery = async (query: string) => {
-    const response = await axios.post(`${API_BASE_URL}/ai/query`, { query });
-    return response.data.response;
-};
-
-export const predictMachineFailure = async (sensors: {
-    vibration_mm_s: number;
-    bearing_temp_c: number;
-    motor_current_a: number;
-    pressure_bar: number;
-}) => {
-    const response = await axios.post(`${API_BASE_URL}/predict/failure`, sensors);
-    return response.data;
-};
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response) {
+      return Promise.reject(new Error(error.response.data?.detail || error.response.statusText))
+    } else if (error.request) {
+      return Promise.reject(new Error('No response from server'))
+    } else {
+      return Promise.reject(new Error(error.message))
+    }
+  }
+)
